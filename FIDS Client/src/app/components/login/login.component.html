@@ -1,0 +1,43 @@
+<div>
+
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <h4> Login</h4>
+      <div class="form-group">
+        <label for="title">Screen id</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          required
+          [(ngModel)]="user.username"
+          name="title"
+        />
+      </div>
+
+    
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          class="form-control"
+          id="password"
+          required
+          [(ngModel)]="user.password"
+          name="password"
+        />
+      </div>
+
+
+      <button (click)="loginuser()" class="btn btn-success">login</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Login.....</h4>
+      
+    </div>
+    <a routerLink="add" class="nav-link">Register New Screen</a>
+
+  </div>
+  
+</div>
+

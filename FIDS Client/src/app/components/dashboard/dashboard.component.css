@@ -1,0 +1,22 @@
+@media screen and (min-width: 2000px) {
+    h2,td,th {
+        font-size: xxx-large;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    h2 {
+        font-size: xx-large;
+    }
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  

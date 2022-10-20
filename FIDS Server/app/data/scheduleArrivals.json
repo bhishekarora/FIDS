@@ -1,0 +1,95 @@
+{
+  "type":"Arrivals",
+    "flights": [{
+    "terminal":"1",
+    "flight":"DL4533",
+    "destination":"Delhi",
+    "time":"09:40",
+    "gate":"D4",
+    "remarks":"DELAYED",
+    "iata":"DL"
+  
+    },
+  
+      {
+    "terminal":"2",
+    "flight":"B64454",
+    "destination":"PARIS",
+    "time":"10:33",
+    "gate":"D5",
+    "remarks":"LAST CALL",
+    "iata":"B6"
+  
+    },
+      {
+    "terminal":"1",
+    "flight":"QR554",
+    "destination":"PRAGUE",
+    "time":"11:22",
+    "gate":"B2",
+    "remarks":"BOARDING",
+    "iata":"QR"
+  
+    },
+    {
+      "terminal":"1",
+      "flight":"UA554",
+      "destination":"PRAGUE",
+      "time":"11:22",
+      "gate":"B2",
+      "remarks":"BOARDING",
+      "iata":"UA"
+    
+      },
+      {
+        "terminal":"1",
+        "flight":"WN112",
+        "destination":"DELHI",
+        "time":"1:22",
+        "gate":"B4",
+        "remarks":"CHECKIN",
+        "iata":"WN"
+      
+        },
+        {
+          "terminal":"1",
+          "flight":"AA443",
+          "destination":"AMSTERDAM",
+          "time":"4:22",
+          "gate":"B3",
+          "remarks":"DEPARTED",
+          "iata":"AA"
+        
+          },
+          {
+            "terminal":"1",
+            "flight":"PD443",
+            "destination":"NEWYORK",
+            "time":"4:22",
+            "gate":"C2",
+            "remarks":"BOARDING",
+            "iata":"PD"
+          
+            },
+            {
+              "terminal":"1",
+              "flight":"B6333",
+              "destination":"ZURICH",
+              "time":"3:22",
+              "gate":"D2",
+              "remarks":"BOARDING",
+              "iata":"B6"
+            
+              },
+              {
+                "terminal":"1",
+                "flight":"LH443",
+                "destination":"DOHA",
+                "time":"3:22",
+                "gate":"E2",
+                "remarks":"DELAYED",
+                "iata":"LH"
+              
+                }
+    ]
+  }

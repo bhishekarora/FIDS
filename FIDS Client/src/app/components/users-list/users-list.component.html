@@ -1,0 +1,89 @@
+
+
+<div class=" row">
+  <div class="col col-lg-2">
+    
+  </div>
+
+  <div class="col col-lg-4">
+   
+  </div>
+  <div class="col col-lg-2">
+    
+  </div>
+
+
+  <div class="col col-lg-4">
+    <div class="input-group mb-4">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search by Screen ID"
+        [(ngModel)]="username"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="searchTitle()"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+  
+</div>
+
+<div class="d-flex p-2"></div>
+<div class=" row">
+  <div class="col">
+    <h4>Screens  List</h4>
+    <table class="table">
+      <tr>
+        <th>Screen ID </th><th> Status</th><th> Content</th>
+      </tr>
+      <tr
+        class=""
+        *ngFor="let user of users; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setActiveuser(user, i)"
+      >
+        <td>{{ user.username }}</td> <td> {{user.published ? "Enabled":"Disabled"}}</td>
+        <td>{{ user.content}}</td>
+ 
+    </tr>
+    </table>
+
+    <button class="m-3 btn btn-sm btn-danger" (click)="removeAllusers()">
+      Remove All
+    </button>
+  </div>
+
+  <div class="col-md-6">
+    <div *ngIf="currentuser.id">
+      <h4>Screen Details</h4>
+      <div>
+        <label><strong>ScreenID:</strong></label> {{ currentuser.username }}
+      </div>
+      <!-- <div>
+        <label><strong>Email:</strong></label>
+        {{ currentuser.email }}
+      </div>  -->
+      <div>
+        <label><strong>Password:</strong></label>
+        {{ currentuser.password }} 
+      </div>
+
+      <a class="badge badge-warning" routerLink="/users/{{ currentuser.id }}">
+        Edit
+      </a>
+    </div>
+
+    <div *ngIf="!currentuser">
+      <br />
+      <p>Please click on a user...</p>
+    </div>
+  </div>
+</div>

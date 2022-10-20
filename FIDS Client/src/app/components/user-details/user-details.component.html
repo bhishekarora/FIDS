@@ -1,0 +1,105 @@
+<div>
+  <div *ngIf="currentuser.id" class="edit-form">
+    <h4>Edit Screen  Details</h4>
+    <form>
+      <div class="form-group">
+        <label for="title">Screen ID</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          [(ngModel)]="currentuser.username"
+          name="title"
+        />
+      </div>
+      <!-- <div class="form-group">
+        <label for="description">Email</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description"
+          [(ngModel)]="currentuser.email"
+          name="description"
+        />
+      </div> -->
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="text"
+          class="form-control"
+          id="password"
+          [(ngModel)]="currentuser.password"
+          name="password"
+        />
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" (change) ="clear()" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Update Password</label>
+      </div>
+
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          [(ngModel)]="currentuser.content"
+          name="content"
+        />
+      </div>
+
+
+      <label for="content">Advertisements</label>
+      <app-file-upload></app-file-upload>
+
+      
+      <!-- <div class="form-group">
+        <button type="button" class="btn btn-light">Role --    {{ currentuser.role ? "Admin" : "User" }}
+        </button>
+    
+      </div> -->
+
+      
+
+      <div class="form-group">
+        <label><strong>Status:</strong></label>
+        {{ currentuser.published ? "Enabled" : "Disabled" }}
+      </div>
+    </form>
+
+    <button
+      class="badge badge-primary mr-2"
+      *ngIf="currentuser.published"
+      (click)="updatePublished(false)"
+    >
+      Disable
+    </button>
+    <button
+      *ngIf="!currentuser.published"
+      class="badge badge-primary mr-2"
+      (click)="updatePublished(true)"
+    >
+      Enable
+    </button>
+
+    <button class="badge badge-danger mr-2" (click)="deleteuser()">
+      Delete
+    </button>
+
+    <button
+      type="submit"
+      class="badge badge-success mb-2"
+      (click)="updateuser()"
+    >
+      Update
+    </button>
+    <p>{{ message }}</p>
+  </div>
+
+  <div *ngIf="!currentuser.id">
+    <br />
+    <p>Cannot access this user...</p>
+  </div>
+</div>
