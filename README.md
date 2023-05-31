@@ -3,6 +3,12 @@ Flight information display system Free
 
 
 ## Project setup
+### Setup db 
+Configure  a mysql/maria instance to listen on standard port with following creds
+USER: "root",
+PASSWORD: "root",
+DB: "testdb",
+
 
 ### BAckend  Server on port env|| 8080
 ```
