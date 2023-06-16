@@ -1,5 +1,5 @@
 # FIDS Server setup 
-Flight information display system Free 
+Flight information display system  
 
 
 ## Project setup
