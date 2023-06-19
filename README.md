@@ -1,6 +1,6 @@
 # FIDS Server setup 
 Flight information display system  
-Simple FIDS server written in Angular/Node/Maria/Websockets for a small airport/lounge.
+Simple FIDS server written in Angular/Node/Mysql/Websockets for a small airport/lounge.
 
 
 ## Project setup
