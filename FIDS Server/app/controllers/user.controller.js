@@ -17,9 +17,9 @@ console.log('user board **********');
     .then(user => {
       reqType =user.content;
       console.log(user.content);
-      dep='./node-js-server/app/data/scheduleDepartures.json';
-      arrivals='./node-js-server/app/data/scheduleArrivals.json';
-      baggage='./node-js-server/app/data/scheduleBaggage.json';
+      dep='./app/data/scheduleDepartures.json';
+      arrivals='./app/data/scheduleArrivals.json';
+      baggage='./app/data/scheduleBaggage.json';
       
    
     if(reqType=='departures')

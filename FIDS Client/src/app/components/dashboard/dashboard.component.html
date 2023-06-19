@@ -1,4 +1,4 @@
-<div class="alert alert-dark">
+<div class="alert alert-light">
     <div class="row">
       <div class="col">
         <img src="https://cdn-icons-png.flaticon.com/512/565/565514.png" height="50" width="60" alt="" />
@@ -20,18 +20,18 @@
           </div>
          
         </div>
-        <div *ngIf="socketdata!==''"> 
-          <marquee style="color:red">  {{socketdata}}</marquee>
-          </div>
-          
+     
     
     </div>
     
-  
+    <div *ngIf="socketdata!==''"> 
+      <marquee style="color:red">  {{socketdata}}</marquee>
+      </div>
+      
   </div>
   
 <table class="table">
-    <thead class="thead-dark">
+    <thead class="thead-light">
       <tr>
         <th scope="col">Airline</th>
         <th scope="col">Terminal</th>
@@ -49,14 +49,14 @@
         *ngFor="let flight of data; let i = index"
         
       >
-      <td class="table-dark">         <img src="https://itravelimages.s3-ap-southeast-1.amazonaws.com/Airlines/{{flight.iata}}.png" style="width: 64px; height: 44px"/> </td>
+      <td class="table-light">         <img src="https://content.airhex.com/content/logos/airlines_{{flight.iata}}_100_80_r.png?background=fff" style="width: 64px; height: 44px"/> </td>
         
-        <td class="table-dark">{{ flight.terminal }}</td> 
-        <td class="table-dark">{{ flight.flight }}</td> 
-        <td class="table-dark">{{ flight.destination }}</td> 
-        <td class="table-dark">{{ flight.time }}</td> 
-        <td class="table-dark">{{ flight.gate }}</td> 
-        <td class="table-dark"   [ngStyle]="{'color': (flight.remarks === 'CHECKIN') ? '#39FF14' : (flight.remarks === 'DELAYED') ? 'red' : (flight.remarks === 'DEPARTED') ? 'yellow' : ''}"
+        <td class="table-light">{{ flight.terminal }}</td> 
+        <td class="table-light">{{ flight.flight }}</td> 
+        <td class="table-light">{{ flight.destination }}</td> 
+        <td class="table-light">{{ flight.time }}</td> 
+        <td class="table-light">{{ flight.gate }}</td> 
+        <td class="table-light"   [ngStyle]="{'color': (flight.remarks === 'CHECKIN') ? '#39FF14' : (flight.remarks === 'DELAYED') ? 'red' : (flight.remarks === 'DEPARTED') ? 'yellow' : ''}"
             > <p class="blink_me" >{{ flight.remarks }} </p></td> 
 
 
