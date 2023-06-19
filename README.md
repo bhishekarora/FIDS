@@ -30,15 +30,16 @@ npm i
 ```
 Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`.
 
-###Ref Images
-```
+### Ref Images
 
-```
-Alerts
+#### Alerts
+
 ![alerts](https://github.com/bhishekarora/FIDS/assets/11346102/627019fe-b943-466f-abb8-18b9dcc0f86f)
-Admin Panel
+
+#### Admin Panel
 ![adminpanel2](https://github.com/bhishekarora/FIDS/assets/11346102/3a2e9d6f-4d56-4f70-8dca-e1dee0e2d846)
-Screen
+
+#### Screen
 
 ![dep](https://github.com/bhishekarora/FIDS/assets/11346102/1adefdf7-6ea3-4e86-9c00-a28d015612a4)
 
