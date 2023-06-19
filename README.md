@@ -31,4 +31,4 @@ npm i
 Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`.
 
 
-Handwritten by Abhishek Arora, pls provide credit while using this 
+Handwritten by Abhishek Arora, reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
