@@ -32,6 +32,8 @@ Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/
 
 ###Ref Images
 ```
+
+```
 Alerts
 ![alerts](https://github.com/bhishekarora/FIDS/assets/11346102/627019fe-b943-466f-abb8-18b9dcc0f86f)
 Admin Panel
@@ -40,5 +42,4 @@ Screen
 
 ![dep](https://github.com/bhishekarora/FIDS/assets/11346102/1adefdf7-6ea3-4e86-9c00-a28d015612a4)
 
-```
 Handwritten by Abhishek Arora, reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
