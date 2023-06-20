@@ -63,6 +63,6 @@ but any kind of API with JSON or any other exchange can be plugged in.
 
 #### Advertisements
 
-![ad](https://github.com/bhishekarora/FIDS/assets/11346102/6d53d869-cedf-4685-8438-784c1d2d6cf1)
+![ad](https://github.com/bhishekarora/FIDS/assets/11346102/bdfd154f-1f30-4b56-a48f-4853962fbad2)
 
 Handwritten by Abhishek Arora, reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
