@@ -39,6 +39,13 @@ angular-http-server --path static -p 8081
 ![alerts](https://github.com/bhishekarora/FIDS/assets/11346102/627019fe-b943-466f-abb8-18b9dcc0f86f)
 
 #### Admin Panel
+
+Delete screens
+Update Screens
+Search Screens
+Disable Screens
+Content update (Arrivals /Departures)
+Ad advertisements to screens 
 ![adminpanel2](https://github.com/bhishekarora/FIDS/assets/11346102/3a2e9d6f-4d56-4f70-8dca-e1dee0e2d846)
 
 #### Screen
