@@ -11,7 +11,7 @@ global.__basedir = __dirname;
 app.use(express.static(__dirname + '/app/data/uploads'));
 var corsOptions = {
   origin: "*",
-  methods: ["GET", "POST","PUT"]
+  methods: ["GET", "POST","PUT","DELETE"]
 };
 
 app.use(cors(corsOptions));
