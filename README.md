@@ -28,8 +28,9 @@ Embedded in Backend server will expose on port 3000
 ```
 cd FIDS Client
 npm i
+npm install -g angular-http-server
+angular-http-server --path static -p 8081
 ```
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`.
 
 ### Ref Images
 
