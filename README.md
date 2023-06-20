@@ -36,7 +36,7 @@ angular-http-server --path static -p 8081
 
 #### Alerts
 
-![alerts](https://github.com/bhishekarora/FIDS/assets/11346102/627019fe-b943-466f-abb8-18b9dcc0f86f)
+![alerts](https://github.com/bhishekarora/FIDS/assets/11346102/269213cf-09d5-4564-83d1-cfbe38e0f505)
 
 #### Admin Panel
 
@@ -52,12 +52,13 @@ Content update (Arrivals /Departures)
 ##
 Ad advertisements to screens 
 ##
-![adminpanel2](https://github.com/bhishekarora/FIDS/assets/11346102/3a2e9d6f-4d56-4f70-8dca-e1dee0e2d846)
+
+![adminpanel2](https://github.com/bhishekarora/FIDS/assets/11346102/4148b5b9-9879-4c48-baa2-fbc2b7fd36b0)
 
 #### Screen
 Multiple screens can be mapped for arrivals/baggage, currently API is hosted locally in data folder of SERVER,
 but any kind of API with JSON or any other exchange can be plugged in.
 
-![dep](https://github.com/bhishekarora/FIDS/assets/11346102/1adefdf7-6ea3-4e86-9c00-a28d015612a4)
+![dep](https://github.com/bhishekarora/FIDS/assets/11346102/f52c1009-23fc-47ad-8177-f3952c8f12d5)
 
 Handwritten by Abhishek Arora, reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
