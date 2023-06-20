@@ -24,13 +24,13 @@
   </div>
   <div *ngIf="message" class="alert alert-secondary" role="alert">{{ message }}</div>
   <div class="card mt-3">
-    <div class="card-header">List of Files</div>
-    <ul
+    <!-- <div class="card-header">List of Files</div> -->
+    <!-- <ul
       class="list-group list-group-flush"
       *ngFor="let file of fileInfos | async"
     >
       <li class="list-group-item">
         <a href="{{ file.url }}">{{ file.name }}</a>
       </li>
-    </ul>
+    </ul> -->
   </div>

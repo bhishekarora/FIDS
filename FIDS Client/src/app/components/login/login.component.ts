@@ -47,7 +47,8 @@ export class loginComponent implements OnInit {
           
           }
           else{
-          this.router.navigate(['dashboard']);
+           //this.router.navigateByUrl('dashboard?screen='+data.username);
+           this.router.navigateByUrl('dashboard?screenid='+data.username);
           window.location.reload();
           
         }
