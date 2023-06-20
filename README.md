@@ -55,6 +55,8 @@ Ad advertisements to screens
 ![adminpanel2](https://github.com/bhishekarora/FIDS/assets/11346102/3a2e9d6f-4d56-4f70-8dca-e1dee0e2d846)
 
 #### Screen
+Multiple screens can be mapped for arrivals/baggage, currently API is hosted locally in data folder of SERVER,
+but any kind of API with JSON or any other exchange can be plugged in.
 
 ![dep](https://github.com/bhishekarora/FIDS/assets/11346102/1adefdf7-6ea3-4e86-9c00-a28d015612a4)
 
