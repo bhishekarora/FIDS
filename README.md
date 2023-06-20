@@ -61,4 +61,8 @@ but any kind of API with JSON or any other exchange can be plugged in.
 
 ![dep](https://github.com/bhishekarora/FIDS/assets/11346102/f52c1009-23fc-47ad-8177-f3952c8f12d5)
 
+#### Advertisements
+![ad](https://github.com/bhishekarora/FIDS/assets/11346102/26124c6d-b95e-40dc-b990-7c0da6d15203)
+
+
 Handwritten by Abhishek Arora, reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
