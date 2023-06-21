@@ -65,4 +65,4 @@ but any kind of API with JSON or any other exchange can be plugged in.
 
 ![ad](https://github.com/bhishekarora/FIDS/assets/11346102/bdfd154f-1f30-4b56-a48f-4853962fbad2)
 
-Reach out to me on arora.abhishek@outlook.com for a copy of codebase or support.
+Reach out to me on arora.abhishek@outlook.com for a complete codebase and support.
